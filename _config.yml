@@ -19,6 +19,8 @@ url: "https://flatwaterlabs.com"
 baseurl: "" 
 cover: "/assets/cover.png"
 logo: "/assets/logo.png"
+description: "Modern data science and machine learning consultancy focused on rowing analytics. Transforming rowing data into actionable insights."
+preview_image: "/img/logo-preview.png"
 
 # Build settings
 markdown: kramdown
