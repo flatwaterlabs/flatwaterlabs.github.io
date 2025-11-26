@@ -119,6 +119,12 @@
     letter-spacing: 4px;
     line-height: 0px;
   }
+
+  #slider .block h1 .hero-line-2 {
+    font-size: 28px;
+    line-height: 28px;
+    letter-spacing: 3px;
+  }
   
   /* Further reduce divider spacing on very small screens */
   #slider .block h1 .divider {
