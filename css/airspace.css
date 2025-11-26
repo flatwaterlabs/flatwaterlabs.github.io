@@ -67,13 +67,14 @@ a:active {
 header {
   background: #fff;
   padding: 20px 0;
+  padding-bottom: 25px;
 }
 header .navbar {
   margin-bottom: 0px;
   border: 0px;
 }
 header .navbar-brand {
-  padding-top: 5px;
+  padding-top: 0px;
 }
 header .navbar-default {
   background: none;
@@ -100,7 +101,7 @@ font header .navbar-default .navbar-nav li a:hover {
   background: url("../img/slider-bg.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  background-position: 10% 0%;
+  background-position: center center;
   padding: 200px 0 280px 0;
   position: relative;
 }
@@ -138,7 +139,8 @@ font header .navbar-default .navbar-nav li a:hover {
 	wrapper Start
 --*/
 #intro {
-  padding: 100px 0;
+  padding: 50px 0;
+  padding-bottom: 25px;
 }
 #intro .block h2 {
   padding-top: 35px;
@@ -164,7 +166,8 @@ font header .navbar-default .navbar-nav li a:hover {
 --*/
 #service {
   text-align: center;
-  padding: 90px 0;
+  padding: 20px 0;
+  padding-bottom: 35px;
 }
 #service .service-item {
   padding-bottom: 30px;

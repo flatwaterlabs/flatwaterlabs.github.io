@@ -12,7 +12,7 @@ keep_files:
   - ".gitignore"
 
 # Site settings
-title: Flatwater Labs
+title: FLATWATER LABS
 subtitle: "Rowing Data Science & Analytics"
 url: "https://flatwaterlabs.com" 
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
@@ -29,7 +29,7 @@ markdown: kramdown
 # Category descriptions (for archive pages)
 descriptions:
   - cat: projects
-    desc: "Machine learning tools and analytics for rowing."
+    desc: "Machine learning tools and insights for rowing."
 
   - cat: blog
     desc: "Updates from the lab."
