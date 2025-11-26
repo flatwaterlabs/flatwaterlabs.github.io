@@ -76,6 +76,9 @@
   /* Reduce slider padding on mobile */
   #slider {
     padding: 120px 0 150px 0;
+    /* Fix background positioning on mobile - background-attachment: fixed doesn't work properly on iOS */
+    background-attachment: scroll !important;
+    background-position: center center !important;
   }
   
   /* Reduce about section top padding */
