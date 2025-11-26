@@ -124,7 +124,7 @@ font header .navbar-default .navbar-nav li a:hover {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
   font-size: 45px;
-  line-height: 60px;
+  line-height: 40px;
   letter-spacing: 10px;
   padding-bottom: 45px;
 }
@@ -134,7 +134,24 @@ font header .navbar-default .navbar-nav li a:hover {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   letter-spacing: 3px;
+  
 }
+
+/* Divider line styling - visible on all screen sizes */
+#slider .block h1 .divider {
+  display: block;
+  width: 300px;
+  height: 2px;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0));
+  margin: 20px 0 -20px 0;
+}
+
+#slider .block h1 br {
+  display: block;
+  content: "";
+  line-height: 0;
+}
+
 /*--
 	wrapper Start
 --*/

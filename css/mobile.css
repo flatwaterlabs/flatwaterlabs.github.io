@@ -1,0 +1,148 @@
+/*
+ * Mobile-specific styles and responsive fixes
+ */
+
+
+/* Mobile breakpoint */
+@media (max-width: 768px) {
+  /* Hero section - Add line break after "THE SCIENCE" on mobile */
+  #slider .block h1 {
+    font-size: 32px;
+    line-height: 24px;
+    letter-spacing: 6px;
+  }
+  
+  /* Split "THE SCIENCE" and "OF SPEED" on mobile */
+  #slider .block h1 .hero-line-1 {
+    font-size: 0;
+    line-height: 0px;
+  }
+  
+  #slider .block h1 .hero-line-1::before {
+    content: "THE SCIENCE";
+    font-size: 32px;
+    letter-spacing: 6px;
+    display: block;
+    line-height: 20px;
+  }
+  
+  #slider .block h1 .hero-line-1::after {
+    content: "OF SPEED";
+    font-size: 32px;
+    letter-spacing: 6px;
+    display: block;
+    line-height: 20px;
+  }
+  
+  #slider .block h1 .hero-line-2 {
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: 4px;
+  }
+  /* Reduce divider spacing on mobile */
+  #slider .block h1 .divider {
+    margin: 12px 0 0px 0;
+    width: 100px;
+  }
+  
+   /* Header - Reduce padding on mobile */
+  header {
+    padding: 10px 0;
+  }
+
+  /* Header - Fix logo sizing and alignment */
+  header .navbar-brand {
+    padding-top: 5px;
+  }
+  
+  header .navbar-brand img {
+    height: 50px !important;
+    max-width: 200px;
+    top: 0 !important;
+  }
+  
+  header .navbar-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  header .navbar-toggle {
+    margin-right: 0px;
+    margin-top: 8px;
+  }
+  
+  /* Reduce slider padding on mobile */
+  #slider {
+    padding: 120px 0 150px 0;
+  }
+  
+  /* Reduce about section top padding */
+  #intro {
+    padding: 30px 0;
+    padding-bottom: 15px;
+  }
+  
+  #intro .block h2 {
+    padding-top: 15px;
+  }
+  
+  /* Reduce gap between about and services sections */
+  #service {
+    padding: 15px 0;
+    padding-bottom: 25px;
+  }
+  
+  /* Reduce section title margins */
+  .section-title {
+    margin-bottom: 40px;
+  }
+}
+
+/* Extra small devices (phones in portrait mode) */
+@media (max-width: 480px) {
+  #slider .block h1 {
+    font-size: 28px;
+    line-height: 24px;
+    letter-spacing: 4px;
+    padding-bottom: 30px;
+  }
+  
+  #slider .block h1 .hero-line-1 {
+    line-height: 24px;
+  }
+  
+  #slider .block h1 .hero-line-1::before,
+  #slider .block h1 .hero-line-1::after {
+    font-size: 28px;
+    letter-spacing: 4px;
+    line-height: 0px;
+  }
+  
+  /* Further reduce divider spacing on very small screens */
+  #slider .block h1 .divider {
+    margin: 10px 0 6px 0;
+  }
+  
+  #slider .block p {
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 2px;
+  }
+  
+  /* Further reduce padding on very small screens */
+  #intro {
+    padding: 20px 0;
+    padding-bottom: 10px;
+  }
+  
+  #service {
+    padding: 10px 0;
+    padding-bottom: 20px;
+  }
+  
+  .section-title {
+    margin-bottom: 30px;
+  }
+}
